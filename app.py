@@ -16,10 +16,6 @@ app = Flask(__name__)
 # Authentication Keys
 VALID_KEYS = {
     "LEAK": "full_access",
-    "LEAKFF": "basic_access",
-    "ADMIN": "admin_access",
-    "VIP": "vip_access",
-    "PRO": "pro_access"
 }
 
 # Weather API Key (Hidden)
